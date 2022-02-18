@@ -1,12 +1,9 @@
 .alert-container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 1rem;
-}
-
-.alert-center {
-    justify-content: center;
 }
 
 .alert {
