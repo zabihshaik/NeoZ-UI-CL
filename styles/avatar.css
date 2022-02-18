@@ -1,0 +1,36 @@
+.avatar-container {
+    background-color: var(--bg-body);
+    max-width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    height: 3.1rem;
+    width: 3.1rem;
+  }
+  
+  .avatar-lg {
+    height: 6rem;
+    width: 6rem;
+  }
+  
+  .avatar-md {
+    height: 4.6rem;
+    width: 4.6rem;
+  }
+  
+  .avatar-sm {
+    height: 3.1rem;
+    width: 3.1rem;
+  }
+  
+  .avatar-xs {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
