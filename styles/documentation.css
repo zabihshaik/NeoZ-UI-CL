@@ -1,0 +1,58 @@
+/* Documentation Page CSS*/
+
+.item-heading {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-bottom: 1px solid var(--text-black);
+}
+
+.items {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    font-size: 1.2rem;
+    overflow: scroll;
+    overflow-y: auto;
+    height: 90vh;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.item {
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--text-black);
+}
+
+.item-active {
+    background-color: var(--primary-color);
+    color: var(--text-white);
+}
+
+.item:hover {
+    color: var(--text-white);
+    background-color: var(--primary-color);
+}
+
+.container-components {
+    margin: 0 auto 0 15rem;
+}
+
+.heading {
+    margin-left: 1rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.heading-small {
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.description {
+    padding: 1rem;
+    font-size: 1.2rem;
+}
