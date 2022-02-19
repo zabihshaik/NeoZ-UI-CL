@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Zabihulla Shaik" />
+    <meta name="keywords" content="HTML, CSS, Component library, UI" />
+    <meta name="description" content="The Input Component of the Component Library" />
+    <link rel="icon" href="https://img.icons8.com/cute-clipart/64/000000/z.png" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/f3f37212fa.js" crossorigin="anonymous"></script>
+
+    <title>Input | NeoZ UI</title>
+
+</head>
+
+<body>
+
+    <div class="page-wrap">
+
+        <!-- Header Starts -->
+        <header>
+            <nav class="navbar">
+                <div>
+                    <a href="../index.html" class="nav nav-logo">
+                        <h3>NeoZ UI</h3>
+                    </a>
+
+                </div>
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="../index.html" class="nav nav-pills">Home</a></li>
+                        <li>
+                            <a href="./documentation.html" class="nav nav-active nav-pills">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="./installation.html" class="nav nav-pills">Installation</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav nav-pills"><i class="fa-solid fa-moon"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Header Ends -->
+
+        <div class="sidebar">
+            <div class="items">
+                <p class="item-heading">Getting Started</p>
+                <a href="./documentation.html" class="item">Usage</a>
+                <a href="#" class="item">Typography</a>
+
+                <p class="item-heading">Components</p>
+                <a href="./alert.html" class="item">Alert</a>
+                <a href="./avatar.html" class="item">Avatar</a>
+                <a href="./badge.html" class="item">Badge</a>
+                <a href="./button.html" class="item">Button</a>
+                <a href="./card.html" class="item">Card</a>
+                <a href="./image.html" class="item">Image</a>
+                <a href="./input.html" class="item item-active">Input</a>
+            </div>
+        </div>
+
+        <div class="container-components">
+            <h2 class="heading">Input</h2>
+            <p class="description">Inputs are used for user interaction with the website. We can interact with User
+                using Inputs and also get the necessary
+                information from the user, and act upon it accordingly.</p>
+
+            <h3 class="heading-small">Textbox Input</h3>
+            <p class="description ">Textbox inputs are generally used in forms, for getting data from the user.
+                This is an example of a normal textbox, where user will enter the details like name, etc. You can
+                include
+                class <span class="text-highlighted">input input-text</span> , as shown below.
+            </p>
+
+            <div class="container flex-center">
+                <div class="input-container">
+                    <label class="input-label" for="input-text">User Name</label>
+                    <input class="input" id="input-text" type="text" placeholder="Enter your username" />
+                </div>
+            </div>
+
+            <iframe class="code-snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%2851%2C91%2C177%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2522%2520for%253D%2522input-text%2522%253EUser%2520Name%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2522%2520id%253D%2522input-text%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520username%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <h3 class="heading-small">Input with Validation</h3>
+            <p class="description ">Input Validation has 2 types based on whether the data / information the user enters
+                matches with the server data or not. They are <span class="text-highlighted">input-success</span>
+                and <span class="text-highlighted">input-error</span> , as shown below.
+            </p>
+
+            <div class="container flex-center">
+                <div class="input-container">
+                    <label class="input-label label-success" for="input-success">Success Validation</label>
+                    <input class="input" id="input-success" type="email" placeholder="username@gmail.com" />
+                    <div class="success-message"><i class="fa fa-check-circle"></i>Correct! </div>
+                </div>
+
+            </div>
+
+            <div class="container flex-center">
+                <div class="input-container">
+                    <label class="input-label label-error" for="input-error">Error Validation</label>
+                    <input class="input" id="input-error" type="password" placeholder="Enter your password here"
+                        value="password123" />
+                    <div class="error-message"><i class="fa fa-exclamation-triangle"></i> Wrong Password ! </div>
+                </div>
+            </div>
+
+            <iframe class="code-snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%2851%2C91%2C177%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container%2520flex-center%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2520label-success%2522%2520for%253D%2522input-success%2522%253ESuccess%2520Validation%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2522%2520id%253D%2522input-success%2522%2520type%253D%2522email%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%2520%2520%2520%2520%2520%2509%2509%2509%2509%2509placeholder%253D%2522username%2540gmail.com%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522success-message%2522%253E%253Ci%2520class%253D%2522fa%2520fa-check-circle%2522%253E%253C%252Fi%253ECorrect%21%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522container%2520flex-center%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522input-label%2520label-error%2522%2520for%253D%2522input-error%2522%253EError%2520Validation%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2522%2520id%253D%2522input-error%2522%2520type%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520your%2520password%2520here%2522%2520value%253D%2522password123%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522error-message%2522%253E%253Ci%2520class%253D%2522fa%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%2520Wrong%2520Password%2520%21%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
