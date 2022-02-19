@@ -1,0 +1,50 @@
+.input-container {
+    font-size: 1.2rem;
+}
+
+.input {
+    padding: .5rem;
+    margin: .5rem 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-label {
+    display: block;
+    color: var(--text-black);
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+.label-success {
+    color: var(--bg-success);
+}
+
+.label-error {
+    color: var(--bg-danger);
+}
+
+#input-text {
+    color: var(--text-black);
+    border: 2px solid var(--text-black);
+}
+
+#input-success {
+    border: 3px solid var(--bg-success);
+}
+
+#input-error {
+    border: 3px solid var(--bg-danger);
+}
+
+.success-message {
+    font-size: 1rem;
+    font-weight: 200;
+    color: var(--bg-success);
+}
+
+.error-message {
+    font-size: 1rem;
+    font-weight: 200;
+    color: var(--bg-danger);
+}
