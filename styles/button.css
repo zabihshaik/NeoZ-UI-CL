@@ -1,0 +1,52 @@
+.button-container {
+    background-color: var(--bg-body);
+    max-width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn-primary-outline {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-primary-outline:hover {
+    background-color: var(--primary-color);
+    color: var(--text-white);
+}
+
+.btn-link {
+    color: var(--primary-color);    
+    border: none;
+    text-decoration: underline !important ;
+}
+
+.btn-link:hover {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.btn-icon {
+    color: var(--primary-color);
+    border: none;
+  }
+
+.btn-float {
+    height: 2rem;
+    width: 2rem;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: var(--text-color-black);
+    color: var(--btn-background-color);
+    border-radius: 50%;
+    border: none;
+    font-size: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
