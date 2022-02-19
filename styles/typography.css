@@ -1,0 +1,109 @@
+.typography-container {
+    background-color: var(--bg-body);
+    max-width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.text-container {
+    background-color: var(--bg-body);
+    max-width: 100%;
+    padding: 1rem 0;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+h4 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+h5 {
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+
+h6 {
+    font-size: 0.25rem;
+    line-height: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+/* text weight css */
+.text-lighter {
+    font-weight: 100;
+}
+
+.text-light {
+    font-weight: 300;
+}
+
+.text-regular {
+    font-weight: 400;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-black {
+    font-weight: 900;
+}
+
+/* text alignment css */
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* text size css */
+
+.text-small {
+    font-size: 0.5rem;
+}
+
+.text-normal {
+    font-size: 1rem;
+}
+
+.text-large {
+    font-size: 1.5rem;
+}
+
+/* colored text */
+.text-gray {
+    color: var(--color-gray);
+}
+
+.text-span {
+    color: var(--primary-color);
+}

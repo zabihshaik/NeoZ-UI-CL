@@ -1,7 +1,7 @@
 /**** External Imports *****/
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css";
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
 @import url("../styles/documentation.css");
 @import url("../styles/alert.css");
@@ -11,6 +11,7 @@
 @import url("../styles/card.css");
 @import url("../styles/image.css");
 @import url("../styles/input.css");
+@import url("../styles/typography.css");
 
 /* Reset CSS */
 *,
@@ -43,6 +44,7 @@ body {
     --bg-busy: #7f007f;
     --bg-danger: #ff3b30;
     --bg-warning: #edc255;
+    --color-gray: #808080;
 }
 
 .page-wrap {
