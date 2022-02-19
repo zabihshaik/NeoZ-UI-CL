@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Zabihulla Shaik" />
+    <meta name="keywords" content="HTML, CSS, Component library, UI" />
+    <meta name="description" content="The Button Component of the Component Library" />
+    <link rel="icon" href="https://img.icons8.com/cute-clipart/64/000000/z.png" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/f3f37212fa.js" crossorigin="anonymous"></script>
+
+    <title>Button | NeoZ UI</title>
+
+</head>
+
+<body>
+
+    <div class="page-wrap">
+
+        <!-- Header Starts -->
+        <header>
+            <nav class="navbar">
+                <div>
+                    <a href="../index.html" class="nav nav-logo">
+                        <h3>NeoZ UI</h3>
+                    </a>
+
+                </div>
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="../index.html" class="nav nav-pills">Home</a></li>
+                        <li>
+                            <a href="./documentation.html" class="nav nav-active nav-pills">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="./installation.html" class="nav nav-pills">Installation</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav nav-pills"><i class="fa-solid fa-moon"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Header Ends -->
+
+        <div class="sidebar">
+            <div class="items">
+                <p class="item-heading">Getting Started</p>
+                <a href="./documentation.html" class="item">Usage</a>
+                <a href="#" class="item">Typography</a>
+
+                <p class="item-heading">Components</p>
+                <a href="./alert.html" class="item">Alert</a>
+                <a href="./avatar.html" class="item">Avatar</a>
+                <a href="./badge.html" class="item">Badge</a>
+                <a href="./button.html" class="item item-active">Button</a>
+                <a href="./card.html" class="item">Card</a>
+                <a href="./image.html" class="item">Image</a>
+                <a href="./input.html" class="item">Input</a>
+            </div>
+        </div>
+
+        <div class="container-components">
+            <h2 class="heading">Button</h2>
+            <p class="description">Buttons are used to trigger in-page functionality (like collapsing content), linking
+                to new pages or sections within the current page.
+            </p>
+            <h3 class="heading-small">Primary Button</h3>
+            <p class="description">Primary button is the main button which performs primary actions of your app. You can
+                use <span class="text-highlighted">btn</span> class for button and use <span
+                    class="text-highlighted">btn-primary</span> for solid primary button, and <span
+                    class="text-highlighted">btn-primary-outline</span> for outline primary button, as shown below.
+            </p>
+
+            <!-- Primary Button -->
+            <div class="button-container">
+                <button class="btn btn-primary">Primary Button</button>
+                <button class="btn btn-primary-outline">Primary Outline</button>
+            </div>
+
+
+            <iframe class="code-snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%2851%2C91%2C177%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253C%21--%2520Primary%2520Button%2520--%253E%250A%2520%253Cdiv%2520class%253D%2522button-container%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2522%253EPrimary%2520Outline%253C%252Fbutton%253E%250A%2520%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+
+            <h3 class="heading-small">Link Button</h3>
+            <p class="description">Link button is the button which is a link in the form of button which will link
+                to other pages. You can use <span class="text-highlighted">btn</span> class for button and for the link
+                button, use <span class="text-highlighted">btn-link</span> , as shown below.
+            </p>
+
+            <!-- Link Button -->
+            <div class="button-container ">
+                <a class="btn btn-link" href="#">Link Button</a>
+            </div>
+
+            <iframe class="code-snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%2851%2C91%2C177%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Link%2520Button%2520--%253E%250A%2520%253Cdiv%2520class%253D%2522button-container%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn-link%2522%2520href%253D%2522%2523%2522%253ELink%2520Button%253C%252Fa%253E%250A%2520%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+
+            <h3 class="heading-small">Icon Button</h3>
+            <p class="description">Icon button is an icon which works as a button. You can
+                use <span class="text-highlighted">btn</span> class for button and for the icon button, use
+                <span class="text-highlighted">btn-icon</span> , as shown below.
+            </p>
+
+            <!-- Icon Button -->
+            <div class="button-container">
+
+                <button class="btn btn-icon">
+                    <i class="fa fa-shopping-cart fa-2x"></i>
+                </button>
+                <button class="btn btn-icon">
+                    <i class="fa fa-home fa-2x"></i>
+                </button>
+                <button class="btn btn-icon">
+                    <i class="fa fa-share fa-2x"></i>
+                </button>
+
+            </div>
+
+            <iframe class="code-snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%2851%2C91%2C177%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Icon%2520Button%2520--%253E%250A%253Cdiv%2520class%253D%2522button-container%2522%253E%250A%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-home%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-share%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+
+
+            <h3 class="heading-small">Floating Action Button</h3>
+            <p class="description">Floating Action Button performs the primary, or most common, action on a
+                screen. You
+                can
+                use <span class="text-highlighted">btn</span> class for button and for the floating action
+                button, use
+                <span class="text-highlighted">btn-float</span> , as shown below.
+            </p>
+
+            <!-- Floating Action Button -->
+            <div class="button-container">
+
+                <a class="btn btn-float" href="#"><i class="fa fa-plus-circle fa-3x"></i></a>
+                <a class="btn btn-float" href="#"><i class="fa fa-arrow-circle-up fa-3x"></i></a>
+                <a class="btn btn-float" href="#"><i class="fa fa-bookmark fa-3x"></i></a>
+
+            </div>
+
+            <iframe class="code-snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%2851%2C91%2C177%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Floating%2520Action%2520Button%2520--%253E%250A%253Cdiv%2520class%253D%2522button-container%2522%253E%250A%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn-float%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fa%2520fa-plus-circle%2520fa-3x%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn-float%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fa%2520fa-arrow-circle-up%2520fa-3x%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn-float%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fa%2520fa-bookmark%2520fa-3x%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%250A%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
