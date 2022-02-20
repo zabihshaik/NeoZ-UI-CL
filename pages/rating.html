@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Zabihulla Shaik" />
+    <meta name="keywords" content="HTML, CSS, Component library, UI" />
+    <meta name="description" content="The Rating Component of the Component Library" />
+    <link rel="icon" href="https://img.icons8.com/cute-clipart/64/000000/z.png" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/f3f37212fa.js" crossorigin="anonymous"></script>
+
+    <title>Rating | NeoZ UI</title>
+
+</head>
+
+<body>
+
+    <div class="page-wrap">
+
+        <!-- Header Starts -->
+        <header>
+            <nav class="navbar">
+                <div>
+                    <a href="../index.html" class="nav nav-logo">
+                        <h3>NeoZ UI</h3>
+                    </a>
+
+                </div>
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="../index.html" class="nav nav-pills">Home</a></li>
+                        <li>
+                            <a href="./documentation.html" class="nav nav-active nav-pills">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="./installation.html" class="nav nav-pills">Installation</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav nav-pills"><i class="fa-solid fa-moon"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Header Ends -->
+
+        <div class="sidebar">
+            <div class="items">
+                <p class="item-heading">Getting Started</p>
+                <a href="./documentation.html" class="item">Usage</a>
+                <a href="./typography.html" class="item">Typography</a>
+
+                <p class="item-heading">Components</p>
+                <a href="./alert.html" class="item">Alert</a>
+                <a href="./avatar.html" class="item">Avatar</a>
+                <a href="./badge.html" class="item">Badge</a>
+                <a href="./button.html" class="item">Button</a>
+                <a href="./card.html" class="item">Card</a>
+                <a href="./image.html" class="item">Image</a>
+                <a href="./input.html" class="item">Input</a>
+                <a href="./navigation.html" class="item">Navigation</a>
+                <a href="./rating.html" class="item item-active">Rating</a>
+            </div>
+        </div>
+
+        <div class="container-components">
+            <h2 class="heading">Rating</h2>
+            <p class="description">Ratings provide as a feedback from the user regarding their opinions and experiences,
+                and can allow the
+                user to submit a rating of their own, for eg. in an ecommerce website.</p>
+
+            <h3 class="heading-small">Rating Stars</h3>
+            <p class="description ">Rating stars are used to get feedback from the user in form of stars depending on
+                the user experience with a product. Higher the number of stars, means positive feedback and vice-versa,
+                as shown below.
+            </p>
+
+            <!-- Rating Stars-->
+            <div class="rating-container">
+                <input type="radio" name="rating" id="star-1"><label for="star-1"></label>
+                <input type="radio" name="rating" id="star-2"><label for="star-2"></label>
+                <input type="radio" name="rating" id="star-3"><label for="star-3"></label>
+                <input type="radio" name="rating" id="star-4"><label for="star-4"></label>
+                <input type="radio" name="rating" id="star-5"><label for="star-5"></label>
+            </div>
+
+            <iframe class="code-snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%2851%2C91%2C177%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-1%2522%253E%253Clabel%2520for%253D%2522star-1%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-2%2522%253E%253Clabel%2520for%253D%2522star-2%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-3%2522%253E%253Clabel%2520for%253D%2522star-3%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-4%2522%253E%253Clabel%2520for%253D%2522star-4%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-5%2522%253E%253Clabel%2520for%253D%2522star-5%2522%253E%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
