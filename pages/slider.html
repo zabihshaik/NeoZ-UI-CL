@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Zabihulla Shaik" />
     <meta name="keywords" content="HTML, CSS, Component library, UI" />
-    <meta name="description" content="The Rating Component of the Component Library" />
+    <meta name="description" content="The Slider Component of the Component Library" />
     <link rel="icon" href="https://img.icons8.com/cute-clipart/64/000000/z.png" />
     <link rel="stylesheet" href="../styles/main.css" />
     <!-- Font Awesome Link -->
     <script src="https://kit.fontawesome.com/f3f37212fa.js" crossorigin="anonymous"></script>
 
-    <title>Rating | NeoZ UI</title>
+    <title>Slider | NeoZ UI</title>
 
 </head>
 
@@ -63,34 +63,28 @@
                 <a href="./image.html" class="item">Image</a>
                 <a href="./input.html" class="item">Input</a>
                 <a href="./navigation.html" class="item">Navigation</a>
-                <a href="./rating.html" class="item item-active">Rating</a>
-                <a href="./slider.html" class="item">Slider</a>
+                <a href="./rating.html" class="item">Rating</a>
+                <a href="./slider.html" class="item item-active">Slider</a>
             </div>
         </div>
 
         <div class="container-components">
-            <h2 class="heading">Rating</h2>
-            <p class="description">Ratings provide as a feedback from the user regarding their opinions and experiences,
-                and can allow the
-                user to submit a rating of their own, for eg. in an ecommerce website.</p>
-
-            <h3 class="heading-small">Rating Stars</h3>
-            <p class="description ">Rating stars are used to get feedback from the user in form of stars depending on
-                the user experience with a product. Higher the number of stars, means positive feedback and vice-versa,
-                as shown below.
+            <h2 class="heading">Slider</h2>
+            <p class="description">Sliders are used in different ways, like for ratings in E-commerce websites, and also
+                to show Price range varying from minimum to maximum, etc.</p>
+            <p class="description ">You need to include
+                class <span class="text-highlighted">slider</span> in your pages where necessary, as shown below.
             </p>
 
-            <!-- Rating Stars-->
-            <div class="rating-container">
-                <input type="radio" name="rating" id="star-1"><label for="star-1"></label>
-                <input type="radio" name="rating" id="star-2"><label for="star-2"></label>
-                <input type="radio" name="rating" id="star-3"><label for="star-3"></label>
-                <input type="radio" name="rating" id="star-4"><label for="star-4"></label>
-                <input type="radio" name="rating" id="star-5"><label for="star-5"></label>
+            <!-- Slider -->
+            <div class="container flex-center pb-2">
+                <div class="slider">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                </div>
             </div>
 
             <iframe class="code-snippet"
-                src="https://carbon.now.sh/embed?bg=rgba%2851%2C91%2C177%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-1%2522%253E%253Clabel%2520for%253D%2522star-1%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-2%2522%253E%253Clabel%2520for%253D%2522star-2%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-3%2522%253E%253Clabel%2520for%253D%2522star-3%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-4%2522%253E%253Clabel%2520for%253D%2522star-4%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522rating%2522%2520id%253D%2522star-5%2522%253E%253Clabel%2520for%253D%2522star-5%2522%253E%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%2851%2C91%2C177%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520class%253D%2522slider%2522%2520%2520id%253D%2522myRange%2522%253E%250A%253C%252Fdiv%253E"
                 sandbox="allow-scripts allow-same-origin">
             </iframe>
 

@@ -13,6 +13,7 @@
 @import url("../styles/input.css");
 @import url("../styles/typography.css");
 @import url("../styles/rating.css");
+@import url("../styles/slider.css");
 
 /* Reset CSS */
 *,
@@ -217,6 +218,9 @@ body {
 /******* Adding Media Queries ******/
 
 @media screen and (max-width: 48rem) {
+    .body {
+        width: 100vw;
+    }
     .container {
         font-size: 2rem;
     }
@@ -229,18 +233,24 @@ body {
 }
 
 @media screen and (max-width: 40rem) {
+    .body {
+        width: 100vw;
+    }
     .container {
         font-size: 1.6rem;
     }
     .navbar {
-        min-width: 75vw;
+        width: 100vw;
     }
     .footer {
-        min-width: 75vw;
+        width: 100vw;
     }
 }
 
 @media screen and (max-width: 30rem) {
+    .body {
+        width: 100vw;
+    }
     .container {
         font-size: 1.2rem;
     }
