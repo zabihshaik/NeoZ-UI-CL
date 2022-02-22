@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Zabihulla Shaik" />
+    <meta name="keywords" content="HTML, CSS, Component library, UI" />
+    <meta name="description" content="The Simplified Grid Component of the Component Library" />
+    <link rel="icon" href="https://img.icons8.com/cute-clipart/64/000000/z.png" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/f3f37212fa.js" crossorigin="anonymous"></script>
+
+    <title>Simplified Grid | NeoZ UI</title>
+
+</head>
+
+<body>
+
+    <div class="page-wrap">
+
+        <!-- Header Starts -->
+        <header>
+            <nav class="navbar">
+                <div>
+                    <a href="../index.html" class="nav nav-logo">
+                        <h3>NeoZ UI</h3>
+                    </a>
+
+                </div>
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="../index.html" class="nav nav-pills">Home</a></li>
+                        <li>
+                            <a href="./documentation.html" class="nav nav-active nav-pills">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="./installation.html" class="nav nav-pills">Installation</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav nav-pills"><i class="fa-solid fa-moon"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Header Ends -->
+
+        <div class="sidebar">
+            <div class="items">
+                <p class="item-heading">Getting Started</p>
+                <a href="./documentation.html" class="item">Usage</a>
+                <a href="./typography.html" class="item">Typography</a>
+
+                <p class="item-heading">Components</p>
+                <a href="./alert.html" class="item">Alert</a>
+                <a href="./avatar.html" class="item">Avatar</a>
+                <a href="./badge.html" class="item">Badge</a>
+                <a href="./button.html" class="item">Button</a>
+                <a href="./card.html" class="item">Card</a>
+                <a href="./grid.html" class="item item-active">Grid Simplified</a>
+                <a href="./image.html" class="item">Image</a>
+                <a href="./input.html" class="item">Input</a>
+                <a href="./navigation.html" class="item">Navigation</a>
+                <a href="./rating.html" class="item">Rating</a>
+                <a href="./slider.html" class="item">Slider</a>
+            </div>
+        </div>
+
+        <div class="container-components">
+            <h2 class="heading">Simplified Grid</h2>
+            <p class="description">The Grids offer a grid-based layout system, with rows and columns, making it easier
+                to design web pages without having to use floats and positioning.</p>
+            <p class="description">To apply grid layout to the child elements, the parent container should have <span
+                    class="text-highlighted">display: grid;</span> or <span class="text-highlighted">display:
+                    inline-grid;</span> included.</p>
+
+            <h3 class="heading-small">Grid-2</h3>
+            <p class="description">Grid-2 is used for placing 2 items in a grid. We can have the items placed in 2
+                columns. You need to include
+                class <span class="text-highlighted">grid-2</span> for the parent container and <span
+                    class="text-highlighted">grid-item</span> for the child container, as shown below.
+            </p>
+            <p class="description">You can resize the Browser window and see that the grid items will be responsive
+                according to the screen width.</p>
+
+            <!-- Grid-2 -->
+            <div class="grid-container">
+                <div class="grid-2">
+                    <img class="grid-item" src="../assets/avatar.png" alt="Avatar">
+                    <img class="grid-item" src="https://picsum.photos/id/1039/100/100" alt="Nature">
+                    <img class="grid-item" src="https://picsum.photos/id/1039/100/100" alt="Nature">
+                    <img class="grid-item" src="../assets/avatar.png" alt="Avatar">
+                </div>
+            </div>
+
+            <iframe class="code-snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%2851%2C91%2C177%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-2%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522grid-item%2522%2520src%253D%2522..%252Fassets%252Favatar.png%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522grid-item%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F1039%252F100%252F100%2522%2520alt%253D%2522Nature%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522grid-item%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F1039%252F100%252F100%2522%2520alt%253D%2522Nature%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522grid-item%2522%2520src%253D%2522..%252Fassets%252Favatar.png%2522%2520alt%253D%2522Avatar%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <h3 class="heading-small">Grid-3</h3>
+            <p class="description">Grid-3 is used for placing 3 items in a grid. We can have the items placed in 3
+                columns. You need to include
+                class <span class="text-highlighted">grid-3</span> for the parent container and <span
+                    class="text-highlighted">grid-item</span> for the child container, as shown below.
+            </p>
+            <p class="description">You can resize the Browser window and see that the grid items will be responsive
+                according to the screen width.</p>
+
+            <!-- Grid-3 -->
+
+            <div class="grid-container">
+                <div class="grid-3">
+                    <img class="grid-item" src="../assets/avatar.png" alt="Avatar">
+                    <img class="grid-item" src="https://picsum.photos/id/1039/100/100" alt="Nature">
+                    <img class="grid-item" src="https://picsum.photos/id/1039/100/100" alt="Nature">
+                    <img class="grid-item" src="../assets/avatar.png" alt="Avatar">
+                    <img class="grid-item" src="https://picsum.photos/id/1039/100/100" alt="Nature">
+                    <img class="grid-item" src="../assets/avatar.png" alt="Avatar">
+                </div>
+            </div>
+
+            <iframe class = "code-snippet"
+  src="https://carbon.now.sh/embed?bg=rgba%2851%2C91%2C177%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-3%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522grid-item%2522%2520src%253D%2522..%252Fassets%252Favatar.png%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522grid-item%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F1039%252F100%252F100%2522%2520alt%253D%2522Nature%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522grid-item%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F1039%252F100%252F100%2522%2520alt%253D%2522Nature%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522grid-item%2522%2520src%253D%2522..%252Fassets%252Favatar.png%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522grid-item%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F1039%252F100%252F100%2522%2520alt%253D%2522Nature%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522grid-item%2522%2520src%253D%2522..%252Fassets%252Favatar.png%2522%2520alt%253D%2522Avatar%2522%253E%250A%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

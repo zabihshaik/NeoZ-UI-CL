@@ -1,0 +1,33 @@
+.grid-container {
+    background-color: var(--bg-body);
+    border: 1px solid var(--primary-color);
+    max-width: 100%;
+    padding: 1rem 0;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;    
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    padding: 2rem;
+}
+
+.grid-item {
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    padding: 2rem;
+}
